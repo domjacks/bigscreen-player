@@ -12,7 +12,7 @@
     "lint": "npx eslint .",
     "lint:code:changed": "git diff-index --name-only HEAD | egrep '.js$' | xargs eslint",
     "build": "npm run build:external",
-    "build:external": "mkdir -p ./script/external && node ./build/buildExternal.js",
+    "build:external": "mkdir -p ./src/external && node ./build/buildExternal.js",
     "build:version": "node ./build/buildVersion.js",
     "build:dist": "npm run build:dist:clean && npm run build:version && mkdir dist && npm run build:copy:script && npm run build:copy:files",
     "build:dist:clean": "rm -fR ./dist && rm -R ./script/external",
