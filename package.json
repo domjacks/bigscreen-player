@@ -3,6 +3,7 @@
   "version": "4.10.1",
   "description": "Simplified media playback for bigscreen devices.",
   "main": "script/bigscreenplayer.js",
+  "type": "module",
   "scripts": {
     "jasmine": "grunt spec",
     "test": "npm run lint && npm run jasmine",
