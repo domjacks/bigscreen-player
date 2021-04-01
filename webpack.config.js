@@ -20,7 +20,7 @@
     ],
     resolve: {
       alias: {
-        bigscreenplayer: path.resolve(__dirname, 'script')
+        bigscreenplayer: path.resolve(__dirname, 'src')
       }
     },
     module: {
