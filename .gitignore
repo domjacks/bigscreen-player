@@ -12,7 +12,7 @@ node_modules
 dist
 
 # Externals
-script/external/
+src/external/
 
 # Testing files
 WebRunner.html
