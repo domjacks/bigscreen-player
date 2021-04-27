@@ -1,6 +1,7 @@
 {
     "parserOptions": {
-      "ecmaVersion": 2015
+      "ecmaVersion": 11,
+      "sourceType": "module"
     },
     "env": {
       "node": true,
@@ -15,7 +16,6 @@
       "es5"
     ],
     "extends": [
-      "plugin:es5/no-es2015",
       "plugin:jasmine/recommended"
     ],
     "globals": {

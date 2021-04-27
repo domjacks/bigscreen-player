@@ -1,8 +1,7 @@
 /* eslint-disable*/
-define(
- function () {
-   'use strict';
-   return function DashManifests () {
+
+   
+   export default function DashManifests () {
      var slidingWindowString = `<?xml version="1.0" encoding="UTF-8"?>
                   <MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                   xmlns="urn:mpeg:dash:schema:mpd:2011" 
@@ -95,4 +94,4 @@ define(
        badAttributes: badAttributes
      };
    };
- });
+ 

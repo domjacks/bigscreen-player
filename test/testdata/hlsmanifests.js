@@ -1,8 +1,7 @@
 /* eslint-disable*/
-define(
- function () {
-   'use strict';
-   return function HlsManifests () {
+
+   
+   export default function HlsManifests () {
      var slidingWindowString = '#EXTM3U\n' +
                                 '#EXT-X-VERSION:2\n' +
                                 '#EXT-X-MEDIA-SEQUENCE:179532414\n' +
@@ -32,4 +31,4 @@ define(
        invalidDate: invalidDateString
      };
    };
- });
+ 
